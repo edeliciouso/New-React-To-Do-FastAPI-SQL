@@ -1,0 +1,69 @@
+/* App.css */
+
+/* Existing styles for Profile */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust to cover the entire viewport height */
+  }
+  
+  .profile-card {
+    background-color: #201e1f;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px; /* Adjust as needed */
+    width: 100%; /* Ensure the card takes full width of its container */
+    text-align: center; /* Center the content horizontally */
+  }
+  
+  .profile-card img {
+    width: 200px; /* Adjust the profile picture size as needed */
+    height: 200px; /* Adjust the profile picture size as needed */
+    border-radius: 50%; /* Ensure the profile picture is circular */
+    margin-bottom: 20px; /* Add space between profile picture and other content */
+  }
+  
+  .profile-info {
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .profile-info p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+  }
+  
+  .profile-links {
+    margin-top: 20px;
+  }
+  
+  .profile-links a {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #3182ce;
+  }
+  
+  .profile-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .logout-btn {
+    background-color: #ff8ab5;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .logout-btn:hover {
+    background-color: #d85e8b;
+  }
+
+  .text-2xl{
+    color: white;
+  }
+  
